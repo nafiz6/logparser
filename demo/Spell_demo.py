@@ -5,7 +5,7 @@ from logparser import Spell
 
 input_dir  = 'newLog/'  # The input directory of log file
 output_dir = 'Spell_result/'  # The output directory of parsing results
-log_file   = 'HDFS.log'  # The input log file name
+log_file   = 'HDFS_2k.log'  # The input log file name
 log_format = '<Date> <Time> <Pid> <Level> <Component>: <Content>'  # HDFS log format
 tau        = 0.5  # Message type threshold (default: 0.5)
 regex      = []  # Regular expression list for optional preprocessing (default: [])
